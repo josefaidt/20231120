@@ -1,0 +1,12 @@
+{
+  "name": "post-confirmation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild handler.ts --bundle --outfile=build/index.js"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.126",
+    "esbuild": "^0.19.6"
+  }
+}
